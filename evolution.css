@@ -1,0 +1,111 @@
+body{
+    background-color: darkcyan;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+    background-color: aqua;
+    height:60px;
+    width:100%;
+}
+button{
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    background-color: blue;
+    color:white;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: black;
+}
+footer{
+    background-color: greenyellow;
+    width:100%;
+    height:60px;
+}
+marquee{
+    background-color: green;
+    font-size: 50px;
+    color:white
+}
+h1{
+    color:blue;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    gap:50px;
+}
+#grandparent{
+     border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-content: justify;
+    align-items: center;
+    flex-direction:column ;
+}
+#parent{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-content: justify;
+    align-items: center;
+    gap: 20px;
+}
+#child1{
+    border:7px solid blue;
+    width: 500px;
+    height:400px;
+}
+#child2{
+    color:darkblue;
+    font-size: 25px;
+    justify-content: center;
+    align-content: justify;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#parent2{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-content: justify;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+#child3{
+    border:7px solid blue;
+    width: 500px;
+    height: 400px;
+
+}
+#child4{
+    color:darkblue;
+    font-size: 25px;
+    justify-content: left;
+    align-content: justify;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    }
+#conclusion{
+    color:darkblue;
+    font-size: 25px;
+    justify-content: left;
+    align-content: justify;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+#child{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
